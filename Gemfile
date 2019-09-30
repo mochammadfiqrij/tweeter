@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 gem 'bulma-rails', '~> 0.7.5'
+gem "font-awesome-rails"
 gem 'simple_form', '~> 4.1'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.7', '>= 4.7.1'
@@ -48,6 +49,7 @@ group :development do
   gem 'better_errors', '~> 2.5', '>= 2.5.1'
   gem 'guard', '~> 2.15', '>= 2.15.1'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+
 end
 
 group :test do
